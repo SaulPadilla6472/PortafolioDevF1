@@ -22,7 +22,7 @@ header div{
 header nav{
     align-items: center;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     height: 100%;
 }
 
