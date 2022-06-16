@@ -8,8 +8,94 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
+    background-color: darkgray;
     height: 10vh;
     justify-content: space-between;
     width: 100%;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+}
+
+header nav img{
+image-resolution: 50px 50px;
+}
+
+
+header nav a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+}
+
+aside{
+    height: 80vh;
+    width: 15%;
+    background-color: lightgrey;
+}
+
+aside nav{
+    display: flex;
+    flex-direction: column;
+}
+
+aside nav a{
+    border-bottom: 1px #000 solid;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+background-color: gray;
+height: 10vh;
+width: 100%;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: 
+        ". . ."
+        ". . ."
+        ". . .";
+        height: 80vh;
+        width: 85%;
+        overflow-y: scroll;
+}
+
+section article{
+    background-color: azure;
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    border: 1px solid;
+    border-color: #000;
+}
+
+section article img{
+    border: 1px solid;
+    border-color: #000;
 }
