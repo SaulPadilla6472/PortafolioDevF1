@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.padre{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.izquierda{
+display: flex;
+flex-direction:column;
+height: 100vh;
+width: 50vw;
+}
+
+.derecha{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    width: 50%;
+}
+
+.d1{
+   height: 27%;
+   background: turquoise;
+}
+.d2{
+    height: 27%;
+    background-color: blue;
+}
+.d3{
+    height: 36%;
+    background-color: purple;
+}
+.d4{
+    height: 10%;
+    background-color: darkgray;
+}
+.d5{
+    height: 50%;
+    background-color: yellow;
+}
+.d6{
+    height: 50%;
+    background-color: orange;
+}
