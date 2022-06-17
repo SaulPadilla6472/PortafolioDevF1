@@ -99,3 +99,12 @@ section article img{
     border: 1px solid;
     border-color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
